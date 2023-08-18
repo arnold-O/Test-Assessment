@@ -1,101 +1,104 @@
 [
-    {
+    {   "id":1,
         "status":"delayed",
         "departure":"Los Angeles, USA",
         "arrival":"Nairobi Kenya",
-        "airline":["Air Canada", "United Airlines", "Singapore Airlines"],
+        "airline":"Air Canada",
         "flightNumber":"EE567",
         "departureTime":"12:00",
         "terminal":"2",
         "gate":"F50"
 
     },
-    {
+    {    "id":2,
         "status":"On time",
         "departure":"Santiago, Chile",
         "arrival":"Berlin, Germany",
-        "airline":["WestJet", "Air France"],
+        "airline":"WestJet",
         "flightNumber":"PR453",
         "departureTime":"12:00",
         "terminal":"1",
         "gate":"F50"
 
     },
-    {
+    {    "id":3,
         "status":"delayed",
-        "destination":"Havana, Cuba",
-        "airline":["Air Canada", "United Airlines", "Singapore Airlines"],
+        "departure":"Havana, Cuba",
+        "arrival":"Jerusalem, Israel",
+        "airline":"United Airlines",
         "flightNumber":"k",
         "departureTime":"12:00",
         "terminal":"2",
         "gate":"F50"
 
     },
-    {
+    {    "id":4,
         "status":"cancelled",
         "destination":"Ottawa, Canada",
         "arrival":"Paris, France",
-        "airline":["Delta Airline"],
+        "airline":"Delta Airline",
         "flightNumber":"AC567",
         "departureTime":"12:00",
         "terminal":"3",
         "gate":"F50"
 
     },
-    {
+    {    "id":5,
         "status":"delayed",
-        "destination":"Los Angeles, USA",
-        "airline":["Air Canada", "United Airlines", "Singapore Airlines"],
+        "destination":"New Delhi, India",
+        "arrival":"Copenhagen, Denmark",
+        "airline": "Singapore Airlines",
         "flightNumber":"HG450",
         "departureTime":"12:00",
         "terminal":"1",
         "gate":"F50"
 
     },
-    {
+    {    "id":6,
         "status":"delayed",
-        "destination":"Los Angeles, USA",
-        "airline":["Air Canada", "United Airlines", "Singapore Airlines"],
+        "destination":"Beijing, China",
+        "arrival":"Helsinki, Finland",
+        "airline":"Air France",
         "flightNumber":"DD567",
         "departureTime":"12:00",
         "terminal":"4",
         "gate":"F50"
 
     },
-    {
+    {    "id":7, 
         "status":"On time",
-        "destination":"Los Angeles, USA",
-        "arrival":"Los Angeles, USA",
-        "airline":["Air Canada", "United Airlines", "Singapore Airlines"],
-        "flightNumber":"",
+        "destination":"Tunis, Tunisia,",
+        "arrival":"Kampala, Uganda,",
+        "airline":"Turkish Airlines",
+        "flightNumber":"KO878",
         "departureTime":"12:00",
         "terminal":"3",
         "gate":"F50"
 
     },
-    {
+    {    "id":8,
         "status":"delayed",
-        "destination":"Los Angeles, USA",
-        "arrival":"Los Angeles, USA",
-        "airline":["Air Canada", "United Airlines", "Singapore Airlines"],
+        "destination":"Harare, Zimbabwe",
+        "arrival":"Pretoria, South Africa",
+        "airline":"British Airways",
         "flightNumber":"JK222",
         "departureTime":"12:00",
         "terminal":"2",
         "gate":"F50"
 
     },
-    {
+    {    "id":9,
         "status":"cancelled",
-        "destination":"Los Angeles, USA",
-        "arrival":"Los Angeles, USA",
-        "airline":["Air Canada", "United Airlines", "Singapore Airlines"],
+        "destination":"Seoul, South Korea",
+        "arrival":"Bangkok, Thailand",
+        "airline":"Lufthansa Group",
         "flightNumber":"AS945",
         "departureTime":"12:00",
         "terminal":"1",
         "gate":"F50"
 
     },
-    {
+    {    "id":10,
         "status":"On Time",
         "destination":"Kigali, Rwanda",
         "arrival":"Accra, Ghana",
@@ -106,12 +109,12 @@
         "gate":"F50"
 
     },
-    {
+    {    "id":11,
         "status":"cancelled",
         "destination":"Cape Town, South Africa",
         "arrival":"Brussels, Belgium",
-        "airline":["Air Canada", "United Airlines", "Singapore Airlines"],
-        "flightNumber":"",
+        "airline":"Air France",
+        "flightNumber":"SC411",
         "departureTime":"12:00",
         "terminal":"5",
         "gate":"F50"
