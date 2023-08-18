@@ -7,32 +7,41 @@ const app = express();
 
 app.get('/flights', async(req, res)=>{
     const filters = req.query;
-    console.log(filters)
+    // console.log(filters)
+    const check = Object.keys(filters)
+    const answer = Object.values(filters)
+   
 
     const options = {
         method: 'GET',
         url: 'https://mocki.io/v1/c6022b01-1b3b-419a-ba19-75c44838424b',
       };
       
-      try {
+   
           const response = await axios.request(options);
          
           const filteredUsers = response.data.filter(user => {
-            let isValid = true;
+           let data = []
             for (key in filters) {
-              console.log(key, user[key], filters[key]);
-              isValid = isValid && user[key] == filters[key];
+            //   console.log(key, user[key], filters[key]);
+              data =  user[key] == filters[key];
             }
-            return isValid;
+            return data;
           });
-        //   res.send(filteredUsers);
-          res.json(filteredUsers);
-
         
-        //   res.json(response.data)
-      } catch (error) {
-          console.error(error);
-      }
+         if(filteredUsers.length > 1){
+            res.json(filteredUsers);
+        }else{
+           
+            res.json({
+                message:`This ${check} with value ${answer} is not valid`
+            });
+
+         }
+
+
+
+      
     
   
 
