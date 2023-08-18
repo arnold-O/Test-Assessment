@@ -1,0 +1,120 @@
+[
+    {
+        "status":"delayed",
+        "departure":"Los Angeles, USA",
+        "arrival":"Nairobi Kenya",
+        "airline":["Air Canada", "United Airlines", "Singapore Airlines"],
+        "flightNumber":"EE567",
+        "departureTime":"12:00",
+        "terminal":"2",
+        "gate":"F50"
+
+    },
+    {
+        "status":"On time",
+        "departure":"Santiago, Chile",
+        "arrival":"Berlin, Germany",
+        "airline":["WestJet", "Air France"],
+        "flightNumber":"PR453",
+        "departureTime":"12:00",
+        "terminal":"1",
+        "gate":"F50"
+
+    },
+    {
+        "status":"delayed",
+        "destination":"Havana, Cuba",
+        "airline":["Air Canada", "United Airlines", "Singapore Airlines"],
+        "flightNumber":"k",
+        "departureTime":"12:00",
+        "terminal":"2",
+        "gate":"F50"
+
+    },
+    {
+        "status":"cancelled",
+        "destination":"Ottawa, Canada",
+        "arrival":"Paris, France",
+        "airline":["Delta Airline"],
+        "flightNumber":"AC567",
+        "departureTime":"12:00",
+        "terminal":"3",
+        "gate":"F50"
+
+    },
+    {
+        "status":"delayed",
+        "destination":"Los Angeles, USA",
+        "airline":["Air Canada", "United Airlines", "Singapore Airlines"],
+        "flightNumber":"HG450",
+        "departureTime":"12:00",
+        "terminal":"1",
+        "gate":"F50"
+
+    },
+    {
+        "status":"delayed",
+        "destination":"Los Angeles, USA",
+        "airline":["Air Canada", "United Airlines", "Singapore Airlines"],
+        "flightNumber":"DD567",
+        "departureTime":"12:00",
+        "terminal":"4",
+        "gate":"F50"
+
+    },
+    {
+        "status":"On time",
+        "destination":"Los Angeles, USA",
+        "arrival":"Los Angeles, USA",
+        "airline":["Air Canada", "United Airlines", "Singapore Airlines"],
+        "flightNumber":"",
+        "departureTime":"12:00",
+        "terminal":"3",
+        "gate":"F50"
+
+    },
+    {
+        "status":"delayed",
+        "destination":"Los Angeles, USA",
+        "arrival":"Los Angeles, USA",
+        "airline":["Air Canada", "United Airlines", "Singapore Airlines"],
+        "flightNumber":"JK222",
+        "departureTime":"12:00",
+        "terminal":"2",
+        "gate":"F50"
+
+    },
+    {
+        "status":"cancelled",
+        "destination":"Los Angeles, USA",
+        "arrival":"Los Angeles, USA",
+        "airline":["Air Canada", "United Airlines", "Singapore Airlines"],
+        "flightNumber":"AS945",
+        "departureTime":"12:00",
+        "terminal":"1",
+        "gate":"F50"
+
+    },
+    {
+        "status":"On Time",
+        "destination":"Kigali, Rwanda",
+        "arrival":"Accra, Ghana",
+        "airline":["Air Canada", "United Airlines", "Singapore Airlines"],
+        "flightNumber":"WG571",
+        "departureTime":"12:00",
+        "terminal":"3",
+        "gate":"F50"
+
+    },
+    {
+        "status":"cancelled",
+        "destination":"Cape Town, South Africa",
+        "arrival":"Brussels, Belgium",
+        "airline":["Air Canada", "United Airlines", "Singapore Airlines"],
+        "flightNumber":"",
+        "departureTime":"12:00",
+        "terminal":"5",
+        "gate":"F50"
+
+    }
+]
