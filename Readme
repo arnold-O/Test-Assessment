@@ -17,4 +17,8 @@
 - Get Flight Data
 - Search for particular fields in flight data
 
+### Key Features <a name="key-features"></a>
+- The api used is a dummy api and was generated from mockapi.io (<a href="mockapi.io">back to top</a>)
+- Mock APi used for the project is "https://mocki.io/v1/788627dc-f0fd-4190-a746-a2389d5e72d2"
+
 
