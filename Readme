@@ -23,3 +23,10 @@
 - Mock APi used for the project is "https://mocki.io/v1/788627dc-f0fd-4190-a746-a2389d5e72d2"
 
 
+### GEtting Started <a name="key-features"></a>
+- cd into your preffered directory and clone the repo
+- run npm install for neccessary packages.
+- visit this localhost address for documentation (http://localhost:3000/flights)
+
+
+

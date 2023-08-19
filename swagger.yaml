@@ -12,6 +12,8 @@ servers:
 paths:
   /:
     get:
+      tags:
+        - GET Routes
       summary: returns all avaible Flight data registered on the plateform.
       responses:
         '200':
@@ -43,7 +45,9 @@ paths:
                     type: string
   /query:
     get:
-      summary: returns all avaible Flight data Search in the query.
+      tags:
+        - GET Routes
+      summary: returns all available Flight data Search in the query.
       parameters:
         - name: id
           in: query
@@ -65,13 +69,33 @@ paths:
           # required: true
           schema:
             type: string
+        - name: flightNumber
+          in: query
+          # required: true
+          schema:
+            type: string
+        - name: departureTime
+          in: query
+          # required: true
+          schema:
+            type: string
+        - name: terminal
+          in: query
+          # required: true
+          schema:
+            type: string
+        - name: gate
+          in: query
+          # required: true
+          schema:
+            type: string
       responses:
         '200':
           description: return an  array of object/s
           content:
             application/json:
               schema:
-                type: string
+                type: object
                 properties:
                   name:
                     type: string
