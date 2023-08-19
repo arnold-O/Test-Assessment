@@ -1,0 +1,20 @@
+ <a name="readme-top"></a>
+
+  <h3><b>Thrillers Travels - Junior Backend Engineer Assessment </b></h3>
+
+<!-- PROJECT DESCRIPTION -->
+
+**[About the Project]** Technical Assessment: Building a simple Flight Search API with search functionality .
+
+### Tech Stack <a name="tech-stack"></a>
+
+> This projects was developed using Nodejs, ExpressJs, Axios
+
+<!-- Features -->
+
+### Key Features <a name="key-features"></a>
+
+- Get Flight Data
+- Search for particular fields in flight data
+
+
