@@ -1,0 +1,86 @@
+openapi: 3.0.0
+info:
+  title: Tecnical Assessment
+  description: A Simple Flight Search Api App 
+  version: 1.0.1
+
+servers:
+  - url: http://localhost:3000/flights
+    description: localhost version of our app
+
+
+paths:
+  /:
+    get:
+      summary: returns all avaible Flight data registered on the plateform.
+      responses:
+        '200':
+          description: return an  array of objects
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  id: 
+                    type: number
+                  status:
+                    type: string
+                  departure:
+                    type: string
+                  arrival:
+                    type: string
+                  airline:
+                    type: string
+                  flightNumber:
+                    type: number
+                  departureTime:
+                    type: string
+                  departureTime:
+                    type: string
+                  terminal:
+                    type: string
+                  gate: 
+                    type: string
+  /query:
+    get:
+      summary: returns all avaible Flight data Search in the query.
+      parameters:
+        - name: id
+          in: query
+          # required: true
+          schema:
+              type: number
+        - name: status
+          in: query
+          # required: true
+          schema:
+            type: string
+        - name: departure
+          in: query
+          # required: true
+          schema:
+            type: string
+        - name: arrival
+          in: query
+          # required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: return an  array of object/s
+          content:
+            application/json:
+              schema:
+                type: string
+                properties:
+                  name:
+                    type: string
+                  value:
+                    type: string
+
+        '400':
+           description: Bad request
+        '500':
+           description: Internal server Error
+       
+  

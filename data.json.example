@@ -16,7 +16,7 @@
         "arrival":"Berlin, Germany",
         "airline":"WestJet",
         "flightNumber":"PR453",
-        "departureTime":"12:00",
+        "departureTime":"21:00",
         "terminal":"1",
         "gate":"F50"
 
@@ -26,8 +26,8 @@
         "departure":"Havana, Cuba",
         "arrival":"Jerusalem, Israel",
         "airline":"United Airlines",
-        "flightNumber":"k",
-        "departureTime":"12:00",
+        "flightNumber":"KK212",
+        "departureTime":"18:00",
         "terminal":"2",
         "gate":"F50"
 
@@ -93,7 +93,7 @@
         "arrival":"Bangkok, Thailand",
         "airline":"Lufthansa Group",
         "flightNumber":"AS945",
-        "departureTime":"12:00",
+        "departureTime":"17:30",
         "terminal":"1",
         "gate":"F50"
 
@@ -102,9 +102,9 @@
         "status":"On Time",
         "destination":"Kigali, Rwanda",
         "arrival":"Accra, Ghana",
-        "airline":["Air Canada", "United Airlines", "Singapore Airlines"],
+        "airline": "Singapore Airlines",
         "flightNumber":"WG571",
-        "departureTime":"12:00",
+        "departureTime":"15:00",
         "terminal":"3",
         "gate":"F50"
 
@@ -115,7 +115,7 @@
         "arrival":"Brussels, Belgium",
         "airline":"Air France",
         "flightNumber":"SC411",
-        "departureTime":"12:00",
+        "departureTime":"22:00",
         "terminal":"5",
         "gate":"F50"
 
