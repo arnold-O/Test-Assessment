@@ -47,7 +47,7 @@ paths:
     get:
       tags:
         - GET Routes
-      summary: returns all available Flight data Search in the query.
+      summary: returns all available Flight data Search in the query. for search flight data fields are provided for query.
       parameters:
         - name: id
           in: query
