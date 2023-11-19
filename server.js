@@ -15,6 +15,12 @@ const globalErrorHandler = require("./utils/errorController");
         
 app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerDocument));
 
+app.post("/fews", (req, res)=>{
+  res.status(200).json({
+    message:"we live now"
+  })
+})
+
 app.get("/flights", async (req, res, next) => {
   const filters = req.query;
   const options = {
